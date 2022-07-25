@@ -8,7 +8,7 @@ export default function Home(props) {
     return (
         <MainLayout>
             <Head>
-                <title>Simple News</title>
+                <title>Next News</title>
             </Head>
         </MainLayout>
     )
