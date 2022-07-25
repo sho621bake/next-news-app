@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-}
 
-module.exports = nextConfig
+module.exports = {
+    env: {
+        X_API_KEY: process.env.X_API_KEY,
+    },
+    nextConfig: {
+        reactStrictMode: true,
+        swcMinify: true,
+    },
+}
